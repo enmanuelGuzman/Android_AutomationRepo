@@ -18,7 +18,7 @@ public class testCase {
 	
 	public static void main(String[] args) {
 		
-		
+		//Test Case
 		
         new AppiumUtility();
 		
@@ -29,7 +29,8 @@ public class testCase {
 		System.out.println("Application Started...");
 		
 		
-		
+		MainPagePO.clickOnboardScreenNextBtn(driver);
+		MainPagePO.clickOnBoardScreenSkipBtn(driver);
 		MainPagePO.verifPointHomePage(driver);
 		MainPagePO.clickMoreTab(driver);
 		MoreWinPO.VerifyMoreWin(driver);
